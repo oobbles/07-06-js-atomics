@@ -6,18 +6,33 @@
   <script type="text/javascript" src="global.js"></script>
 </head>
 <body>
-  <h1>JS Atomic 02</h1>
+  <h1>JS Atomic 04</h1>
 
-  <h2>What's the difference between alert() and console.log()?</h2>
-  <p>Put your answer here, then keep going</p>
+  <p>What is the data-type (e.g. string or integer) of the information that comes in? What happens if the user inputs a number -- does it stay an integer? Use typeof and console.log() to help with this.</p>
+    <p><i>The results are strings. That means you should sometimes cast the value given by the user. For example, if his answer should be a Number, you should cast the value to Number. </i></p>
 
-  <h2>What's one situation where you might use an `alert()` to tell the user something?</h2>
-  <p>Put your answer here, then keep going</p>
-  <p>Maybe you'll have a couple paragraphs for an answer?</p>
+  <p>What happens if the user clicks "OK" (or equivalent) without typing anything in? What information gets assigned to a variable, if any?</p>
+    <p><i>Unlike the previous excercises, these seem to return empty strings instead of undefined.  I did discover if you click the check box that 'prohibits further boxes' the value returned is null.</i></p>
 
-  <h2>What's one way that `alert()` might get obnoxious?</h2>
-  <p>Put your answer here, then keep going</p>
+  <p>How did you choose your variable names? If you gave a list of variable names to someone who hasn't seen your code, could they reasonably predict what information you might store in each?</p>
+    <p><i>Tried to name them what I was asking for, or you know, what kind of information would be assigned to them.  I think someone could probably reasonably predict what they were storing.</i></p>
 
+  <p>If you completely changed a question you were asking the user, would it make sense to totally rename the variable? What if you changed the order of your questions?</p>
+    <p><i>Yes to the variable.  Not totally sure what you mean in the second part, but if you switched the order of anything, I suppose it wouldn't matter as long as the right variables were in the right spot.  So if you asked me my name and age, and then showed the windows -your age is 10- and -your name is lisa- I'd still know what was going on, but probably would expect them to display in the order I entered them.</i></p>
+
+  <p>In these exercises, we use prompt() to collect information, but most websites do that ask for information do not use prompt() -- how do they collect information (what HTML elements do they use)? What might be an advantage to doing it that way instead of with prompt()? Are there any disadvantages? Why might you use prompt()?</p>
+    <p><i>I beleive the main way to collect information is via forms.  The advantage is it doesn't create a modal window that inturrupts flow and pisses off the user.  I suppose if you needed the information right away, to dynamically create something on the first display of the page a prompt could be useful.</i>
+
+    <blockquote>
+      <p>It sure is a quick way to gather some information, but it is not as reliable an information gatherer as other options available to you. If you want to find out someone's name and information, the best way to request this information would be through the use of HTML Forms.</p>
+
+      <p>HTML form elements rely on action and method attributes to identify where to send the form data for processing (action) and how to process the data (method). In the code above, we've inserted some make-believe values to represent what a typical HTML form might look like behind the scenes.</p>
+
+      <p>Unfortunately, HTML alone is unable to process form data. A scripting language such as PHP, PERL, and/or JavaScript must be used with HTML forms to process data captured by HTML form elements.</p>
+      </blockquote></p>
+
+  <p>Research prompt() -- is there any way to make it so that there are two (or more) fields?</p>
+    <p><i>I didn't see any.  There really doesn't seem to be a ton of information out there on prompts, I think they are not commonly used in the 2000s.</i></p>
 
 </body>
 </html>
