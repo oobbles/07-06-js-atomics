@@ -1,6 +1,3 @@
-var sign = window.prompt('Are you feeling lucky', 'sure'); // open the window with Text "Are you feeling lucky" and default value "sure"
-alert(sign)
-
 var name = prompt("Your name?", "Lisa Pisa");
 var age = prompt("Your age?");
 var hometown = prompt("Your hometown?");
