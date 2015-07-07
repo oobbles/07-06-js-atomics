@@ -1,6 +1,6 @@
-var num1 = parseInt(prompt("number1"))
-var num2 = parseInt(prompt("number2"))
-var num3 = parseInt(prompt("number3"))
+var num1 = parseInt(prompt("number1"));
+var num2 = parseInt(prompt("number2"));
+var num3 = parseInt(prompt("number3"));
 //total=parseInt(num1 + num2)
 //
 // if (total>num3){
@@ -14,6 +14,6 @@ if (isNaN(num1)===true ||isNaN(num2)===true ||isNaN(num3)===true){
 alert("yes")
 } else {
 alert("no")
-}
+};
 
 
