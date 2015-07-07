@@ -1,0 +1,27 @@
+<!doctype HTML>
+<html>
+<head>
+  <title>JS If Statements</title>
+  <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="normalize.css">
+  <script type="text/javascript" src="global6d.js"></script>
+</head>
+<body>
+  <h1>JS Atomic 6de</h1>
+  <h2>6D/E Driving</h2>
+<p>Does it matter what order your if-statements are in?</p>
+<i>No, just if you care about the order in which the messages are returned.</i>
+<p>When testing ranges, did you use &&, ||, or something else entirely (e.g. nested if-statements)? If you used &&, why is that a better choice than || (and vice-versa)?</p>
+<i>I used && because I thought they both needed to evaluate to true.</i>
+
+<p>What types of input produce a value of NaN after parsing? Is it important to check for NaN values? Is it possible for a NaN value to trigger any of the other if-statements? If so, how and why?</p>
+<i>I didn't see it trigger anything else.  Anything that began with ...not a number... seemed to produce the Nan response after parsing.</i>
+<hr>
+<p>Does it matter what order your if / else if statements happen? If you reorder them, does your program still produce correct output?<p>
+  <i>Yes it does matter depending on your logic.  A good example is if you want someone who is 21 to get the drinking statement- if you put it before the driver's license statement, it is fine and will execute first, if you put it after, you need to make the driver's license one only hit a range, or it will evaluate to true with 21 (before 21 has a chance to evaluate to true)</i>
+<p>What's wrong with this conditional: if (age < 16 && age > 21)?</p>
+<i>In order for it to work, both sides need to evaluate to true, which is impossible.</i>
+<p>Let's say that your program needs to be easy to modify so that it works in parts of the country/world where the age ranges are different. How would you replace the numbers in your if statements with variables to make the program make sense? Or is it easier to just have the numbers be there? Does it matter?</p>
+<i>Seems like it would be easier to have the numbers, but maybe if the range was a variable then you could update the variables?  I'm not even sure if you could do that.  The little bit I tried didn't really seem like it was saving you any work because you are just moving around some of the logic to variables that you would still have to update.
+</body>
+</html>
