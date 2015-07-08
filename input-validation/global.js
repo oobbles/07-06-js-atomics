@@ -1,16 +1,31 @@
-var num1 = parseInt(prompt("Gimme a number:","5"));
-var num2 = parseInt(prompt("Gimme another number:","6"));
-var num3 = parseInt(prompt("Gimme one more number:","1"));
-var sum = parseInt(num1 + num2 + num3);
+var password = "Cool";
 
-console.log(num1 + "+" + num2 + "+" + num3 + "=" + sum );
-console.log(num1 + "-" + num2 + "-" + num3 + "=" + (num1-num2-num3) );
-console.log(num1 + "*" + num2 + "*" + num3 + "=" + (num1*num2*num3) );
-console.log(num1 + "/" + num2 + "=" + (num1/num2));
-num1++;
-console.log("increment" + (num1++));
-num2--;
-console.log("deincrement" + (num2--));
+var guess = prompt("Guess");
+var count = 0
+while (password!=guess){
+  count+=1;
+  guess = prompt("guess again");
+}
 
-var test = parseInt(prompt("Gimme a number:","5"));
-console.log(test)
+alert("yes" + count)
+
+
+
+var answers = [];
+var trivia = [];
+
+
+// //7d
+// for (var count=1; count < 25; count+=1){
+//   if ((count % 3 == 0 && count % 5 == 0))
+//     console.log("fizzbuzz");
+//     else if(count % 3 == 0)
+//     console.log("fizz");
+//     else if (count % 5 == 0)
+//       console.log("buzz");
+//     else
+//       console.log(count);
+//   }
+  // var finish=21;
+  // for (var start_at=3; start_at < finish; start_at+=4)
+  //   console.log("Counting:" + start_at)  ;
